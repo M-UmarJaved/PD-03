@@ -6,6 +6,6 @@ int angle;
 cout<< " Enter the number of sides of the polygon: ";
 cin >> sides;
 angle = (sides - 2) * 180;
-cout<<" The sum of internal angles of a 40-sided polygon is: "<< angle<<" degrees";
+cout<<" The sum of internal angles of a "<< side <<"-sided polygon is: "<< angle<<" degrees";
 
 }
